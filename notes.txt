@@ -1,0 +1,8 @@
+pip install fastapi uvicorn pydantic
+
+# run 
+python main.py
+
+# goto auto documentation(in browser url)
+/docs
+/redoc
