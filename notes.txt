@@ -1,8 +1,18 @@
+# environment setup
+python -m venv venv
+.\venv\Scripts\activate
+ 
 pip install fastapi uvicorn pydantic
 
 # run 
 python main.py
 
+
 # goto auto documentation(in browser url)
 /docs
 /redoc
+
+
+# requirements.txt create commands
+pip install gunicorn
+pip freeze > requirements.txt
